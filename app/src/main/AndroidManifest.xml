@@ -33,9 +33,7 @@
                 <!-- Include one or more domains that should be verified. -->
                 <data android:host="app.mapcomplete.org" />
                 <data android:path="/land.html" />
-
             </intent-filter>
-
         </activity>
 
         <provider
@@ -52,5 +50,4 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
 </manifest>
